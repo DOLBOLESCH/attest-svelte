@@ -8,14 +8,14 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1> 
-                        <p class="animate-text-1">Lorem, ipsum dolor sit</p>
-                        <p class="text-2">Lorem ipsum dolor sit amet </p>
+                        <p class="animate-text-1">Любимый сериал|телефильм.</p>
+                        <p class="text-2">17 мгновений весны. </p>
                     </h1>
                 </div>
-                <h2 class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dicta voluptas pariatur alias rerum assumenda eum eligendi aperiam. Officiis vel quia fugiat quidem adipisci autem dolorum, exercitationem amet perferendis excepturi.</h2>
+                <h2 class="subtitle">Сегодня мне бы хотелось рассказать о своем самом любимом телефильме. А именно о "17 мгновениях весны", читайте далее и узнаете полную рецензию в рамках 5й аттестационной работы!</h2>
                 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style="color: black;" class="scroll-button animate-scroll" tabindex="0">
-                    <a href="/about">Clock Here</a>
+                    <a href="/about">Click Here</a>
                     <div class="arrow">&rarr;</div>
                 </div>
             </div>
