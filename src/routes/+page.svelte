@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Королев Павел</title>
+    <title>Homepage</title>
 </svelte:head>
 
 <div class="container">
@@ -15,7 +15,7 @@
                 <h2 class="subtitle">Сегодня мне бы хотелось рассказать о своем самом любимом телефильме. А именно о "17 мгновениях весны", читайте далее и узнаете полную рецензию в рамках 5й аттестационной работы!</h2>
                 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style="color: black;" class="scroll-button animate-scroll" tabindex="0">
-                    <a href="/about">Click Here</a>
+                    <a href="/about">Читайте далее!</a>
                     <div class="arrow">&rarr;</div>
                 </div>
             </div>
