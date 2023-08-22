@@ -18,12 +18,12 @@
 <script>
     const nav= [
         {
-            title:'Обо мне',
+            title:'Фильм',
             href: '/about',
             isShow: true
         },
         {
-            title:'Блог',
+            title:'Любимые персонажи',
             href: '/blog',
             isShow: true
         },
