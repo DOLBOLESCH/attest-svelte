@@ -53,7 +53,6 @@ hr {
 #article_title {
     position: absolute;
     top: 0;
-    left: 320px;
     margin: 0 0 26px 4%;
     font-weight: 600;
     font-size: 40px;
@@ -61,7 +60,6 @@ hr {
 #article_text {
     position: relative;
     max-width: 63%;
-    left: 320px;
     margin-left: 4%;
     bottom: 120px;
     font-weight: 500;
