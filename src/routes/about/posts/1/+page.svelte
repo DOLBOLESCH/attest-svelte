@@ -21,3 +21,70 @@
     </article>
     <hr id="final_hr">
 </div>
+
+<style>
+div {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+#final_hr {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    width: 100%;
+}
+
+#article_title,
+#article_text  {
+    font-family: sans-serif;
+}
+
+.main_article {
+    position: relative;
+    min-width: 1010px;
+    width: 79vw;
+    background-color: #E0E0E0;
+    border-radius: 15px;
+}
+#article_title {
+    position: absolute;
+    top: 0;
+    left: 320px;
+    margin: 0 0 26px 4%;
+    font-weight: 600;
+    font-size: 40px;
+}
+#article_text {
+    position: relative;
+    max-width: 63%;
+    left: 320px;
+    margin-left: 4%;
+    bottom: 120px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.main_article {
+    margin-top: 100px;
+    justify-self: center;
+    background-color: white;
+}
+#article_title {
+    position: static;
+    margin: 0 0 60px 0;
+}
+#article_text {
+    position: static;
+    margin: 0 0 40px 0;
+    max-width: unset;
+}
+#hr1 {
+    margin: 0px 0 38px;
+}
+#hr2 {
+    margin: 60px 0 25px;
+}
+</style>
