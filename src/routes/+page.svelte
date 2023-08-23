@@ -9,14 +9,13 @@
                 <div class="info-text">
                     <h1> 
                         <p class="animate-text-1">Любимый сериал|телефильм.</p>
-                        <p class="text-2">17 мгновений весны. </p>
+                        <p class="text-2">"17 мгновений весны". </p>
                     </h1>
                 </div>
                 <h2 class="subtitle">Сегодня мне бы хотелось рассказать о своем самом любимом телефильме. А именно о "17 мгновениях весны", читайте далее и узнаете полную рецензию в рамках 5й аттестационной работы!</h2>
                 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style="color: black;" class="scroll-button animate-scroll" tabindex="0">
-                    <a href="/about">Читайте далее!</a>
-                    <div class="arrow">&rarr;</div>
+                    <a href="/about" class="about-link"><span>Читайте далее!</span></a>
                 </div>
             </div>
         </div>
@@ -75,7 +74,44 @@
         outline: none;
         cursor: pointer;
     }
-    .scroll-button .arrow {
-        margin-left: 0.50rem;
+    .about-link {
+        text-decoration: none;
+        display: inline-block;
+        margin: 10px;
+        color: rgb(0, 0, 0);
+        box-shadow: 0 0 0 2px white;
+        padding: 20px 0;
+        width: 150px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        position: relative;
+        overflow: hidden;
+    }
+    .about-link span {
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        z-index: 5;
+    }
+    .about-link::before, .about-link:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .about-link:before {
+        transform: translateX(-100%);
+        background: rgb(118, 117, 117);
+        transition: transform .3s cubic-bezier(.55, .055, .675, .19);
+    }
+    .about-link:after {
+        background: #ffffff;
+        transform: translateX(100%);
+        transition: transform .3s cubic-bezier(.16, .73, .58, .62) .3s;
+    }
+    .about-link:hover:before, .about-link:hover:after {
+        transform: translateX(0);
     }
 </style>

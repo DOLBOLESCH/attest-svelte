@@ -16,7 +16,7 @@ export const routes = [
     },
     {
         id: 4,
-        title:'My fourth blog post',
-        body:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut sequi. Odio natus iste consequuntur architecto cupiditate. Est molestias similique laborum corporis sit nostrum unde doloremque fuga. A, amet doloremque.'
+        title:'Мини-сборник анекдотов про Штирлица)',
+        body:'Настало самое время для всеми нами любимых анекдотов!) Не думаете?'
     }
 ]
