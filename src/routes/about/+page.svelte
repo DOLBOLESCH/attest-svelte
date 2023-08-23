@@ -1,15 +1,15 @@
 <svelte:head>
-    <title>My Blog</title>
+    <title>Мини-блог</title>
 </svelte:head>
 <div class="container">
-    <h1>My posts</h1>
+    <h1>Статьи</h1>
     <div class="blogposts">
         {#each routes as page}
             <div class="post">
                 <h2>{page.title}</h2>
                 <p>{page.body}</p>
                 <p class="readmore">
-                    <a class="link" href={`/about/posts/${page.id}`}>Read more</a>
+                    <a class="link" href={`/about/posts/${page.id}`}><strong>Читать далее!</strong></a>
                 </p>
             </div>
         {/each}

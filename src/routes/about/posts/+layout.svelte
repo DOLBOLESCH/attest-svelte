@@ -1,5 +1,5 @@
 <div class="container">
-    <a href="/about">Обратно в Описание</a>
+    <a href="/about"><strong>В начало!</strong></a>
     <slot />
 </div>
 <style>
