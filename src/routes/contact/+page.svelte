@@ -1,8 +1,8 @@
 <svelte:head>
-    <title>Вы можете с нами связаться!</title>
+    <title>Контакты</title>
 </svelte:head>
 <div class="container">
-    <h1>Наши контакты</h1>
+    <h1>Вы можете с нами связаться!</h1>
     <hr id="hr1">
         <img src="https://popechitelstvo-zabota.ru/wp-content/uploads/2018/03/contacts-bg1_1-1024x355.jpg" alt="mainpng" class="mainimg">
     <hr id="hr2">
