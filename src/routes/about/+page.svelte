@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Мини-блог</title>
+    <title>Статьи</title>
 </svelte:head>
 <div class="container">
     <h1>Статьи</h1>

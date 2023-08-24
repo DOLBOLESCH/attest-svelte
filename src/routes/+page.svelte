@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Homepage</title>
+    <title>Главная страница</title>
 </svelte:head>
 
 <div class="container">
